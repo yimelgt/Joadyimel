@@ -22,8 +22,8 @@ function AppContent() {
   }, []);
 
   const skills = {
-    devStack: ["HTML5", "CSS3", "JavaScript", "Figma"],
-    creative: ["Adobe CC", "Illustrator", "Photoshop", "InDesign"],
+    devStack: ["HTML5", "CSS3", "JavaScript", "Figma",],
+    creative: ["Adobe CC", "Illustrator", "Photoshop", "InDesign", "Canva"],
     strategy: [
       "SEO",
       "Meta Ads",

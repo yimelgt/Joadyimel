@@ -27,6 +27,36 @@ export function SEO({
     // Set title
     document.title = title;
 
+    // Set favicon
+    const setFavicon = () => {
+      // Remove existing favicon links
+      const existingLinks = document.querySelectorAll("link[rel*='icon']");
+      existingLinks.forEach(link => link.remove());
+
+      // Add SVG favicon (modern browsers)
+      const faviconSvg = document.createElement("link");
+      faviconSvg.rel = "icon";
+      faviconSvg.type = "image/svg+xml";
+      faviconSvg.href = "/favicon.svg";
+      document.head.appendChild(faviconSvg);
+
+      // Add ICO favicon for older browsers
+      const faviconIco = document.createElement("link");
+      faviconIco.rel = "alternate icon";
+      faviconIco.type = "image/x-icon";
+      faviconIco.href = "/favicon.ico";
+      document.head.appendChild(faviconIco);
+
+      // Apple touch icon for iOS home screen
+      const appleTouchIcon = document.createElement("link");
+      appleTouchIcon.rel = "apple-touch-icon";
+      appleTouchIcon.sizes = "180x180";
+      appleTouchIcon.href = "/apple-touch-icon.png";
+      document.head.appendChild(appleTouchIcon);
+    };
+
+    setFavicon();
+
     // Set or update meta tags
     const setMetaTag = (name: string, content: string, property?: boolean) => {
       const attr = property ? "property" : "name";
