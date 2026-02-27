@@ -4,8 +4,20 @@ import { motion } from "motion/react";
 export function CustomCursor() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(false);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
 
   useEffect(() => {
+    // Check if device has touch capability
+    const checkTouchDevice = () => {
+      setIsTouchDevice(
+        'ontouchstart' in window ||
+        navigator.maxTouchPoints > 0 ||
+        window.matchMedia("(pointer: coarse)").matches
+      );
+    };
+
+    checkTouchDevice();
+
     const updateMousePosition = (e: MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
       setIsVisible(true);
@@ -22,7 +34,8 @@ export function CustomCursor() {
     };
   }, []);
 
-  if (!isVisible) return null;
+  // Don't render cursor on touch devices
+  if (!isVisible || isTouchDevice) return null;
 
   return (
     <>
