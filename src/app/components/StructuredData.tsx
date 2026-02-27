@@ -49,7 +49,7 @@ export function StructuredData() {
       },
       award: [
         "Huawei ICT Competition - National Top 9",
-        "Video Game Creation - 1st Place National",
+        "Video Game Creation - 1st Place Local",
         "IPMA Certification - National Top 25",
       ],
     };
