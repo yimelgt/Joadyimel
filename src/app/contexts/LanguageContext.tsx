@@ -16,6 +16,7 @@ const translations = {
   en: {
     // Nav
     "nav.contact": "CONTACT",
+    "nav.work": "Work",
     
     // Hero
     "hero.role": "DIGITAL STRATEGIST · CREATIVE TECHNOLOGIST",
@@ -86,6 +87,7 @@ const translations = {
   es: {
     // Nav
     "nav.contact": "CONTACTO",
+    "nav.work": "Trabajos",
     
     // Hero
     "hero.role": "ESTRATEGA DIGITAL · TECNÓLOGO CREATIVO",
@@ -183,6 +185,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   );
 }
 
+// Hook to access language context
 export function useLanguage() {
   const context = useContext(LanguageContext);
   if (!context) {
