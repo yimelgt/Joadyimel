@@ -1,0 +1,65 @@
+═══════════════════════════════════════════════════════════════
+  LINKS INTERNOS DE IMÁGENES - PORTFOLIO JOAD YIMEL GONZÁLEZ
+═══════════════════════════════════════════════════════════════
+
+📋 Copia y pega estos links directamente:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌊 IMAGEN 1: CAAMTH
+Proyecto: Plataforma Digital de Comisión de Agua y Alcantarillado
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+figma:asset/2afbc893b8d8f4b19725759416d95641a8b61ac0.png
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🍔 IMAGEN 2: CARL'S JR (Sitio Web)
+Proyecto: Campaña Digital y Redes Sociales
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━���━━━━━━━━━━━━
+figma:asset/9925597f3925724d1597adac03baee10ee601c5b.png
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🍔 IMAGEN 3: CARL'S JR (Gran Apertura Centro Sur)
+Proyecto: Campaña de Apertura de Sucursal
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+figma:asset/07cfd2e8d8e73324252f5e6585eea69d79a1e518.png
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🤖 IMAGEN 4: DASHBOARD IA
+Proyecto: Automatización con Inteligencia Artificial
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+figma:asset/c4236c6c5fa7d075e5e8a7a61d05d1a61a825114.png
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎨 IMAGEN 5: BRAND IDENTITY (Gama Cromática)
+Proyecto: Identidad Corporativa
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+figma:asset/f7f281dcd1babe9f8b08519612c236b388829203.png
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+═══════════════════════════════════════════════════════════════
+
+💡 CÓMO USAR ESTOS LINKS:
+
+Método 1 - Usar variables ya configuradas (RECOMENDADO):
+import { projectImages } from "../assets/project-images";
+imageUrl: projectImages.brandIdentity
+
+Método 2 - Importar directamente en cualquier archivo:
+import imagen from "figma:asset/[HASH].png";
+
+═══════════════════════════════════════════════════════════════
+
+✅ ESTADO ACTUAL:
+
+Las 5 imágenes YA están configuradas en:
+→ /src/assets/project-images.ts (definiciones)
+→ Listas para usar en /src/app/data/projects.ts
+
+Imágenes disponibles:
+✓ projectImages.caamth           → CAAMTH
+✓ projectImages.carlsjr          → Carl's Jr (Sitio Web)
+✓ projectImages.carlsjrApertura  → Carl's Jr (Gran Apertura)
+✓ projectImages.dashboard        → Dashboard IA
+✓ projectImages.brandIdentity    → Brand Identity (Gama Cromática)
+
+═══════════════════════════════════════════════════════════════
