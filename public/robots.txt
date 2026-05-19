@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joadyimel.vercel.app/sitemap.xml

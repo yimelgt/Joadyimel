@@ -1,0 +1,12 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0D0D0D"/>
+  <rect x="60" y="250" width="8" height="120" fill="#AAFF45"/>
+  <text x="90" y="310" font-family="Arial, sans-serif" font-size="100" font-weight="900" fill="#F0EDE6" letter-spacing="-2">JOAD YIMEL</text>
+  <text x="90" y="370" font-family="Arial, sans-serif" font-size="28" font-weight="400" fill="#AAFF45" letter-spacing="4">IT ENGINEER &amp; DIGITAL STRATEGIST</text>
+  <text x="90" y="420" font-family="Arial, sans-serif" font-size="20" font-weight="300" fill="#F0EDE6" opacity="0.5">QUERETARO | MEXICO | OPEN TO WORK</text>
+  <text x="90" y="550" font-family="monospace" font-size="16" fill="#F0EDE6" opacity="0.3">joadyimel.vercel.app</text>
+  <rect x="900" y="80" width="240" height="240" fill="none" stroke="#AAFF45" stroke-width="2" opacity="0.2"/>
+  <rect x="920" y="100" width="240" height="240" fill="none" stroke="#AAFF45" stroke-width="1" opacity="0.1"/>
+  <rect x="940" y="120" width="160" height="160" fill="#AAFF45" opacity="0.1"/>
+  <text x="1000" y="205" font-family="Arial, sans-serif" font-size="120" font-weight="900" fill="#AAFF45" opacity="0.3" text-anchor="middle">JY</text>
+</svg>
