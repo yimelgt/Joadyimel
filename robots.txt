@@ -1,0 +1,15 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://joadyimel.vercel.app/sitemap.xml
+
+# Crawl-delay (opcional, no todos los bots lo respetan)
+Crawl-delay: 1
+
+# Archivos estáticos
+Disallow: /dist/
+Disallow: /node_modules/
+Disallow: /*.json
+Disallow: /*.lock
